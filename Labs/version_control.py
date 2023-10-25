@@ -18,6 +18,11 @@ def decoder(number):
         s += str(int(i) - 3)
     return s
 
+def encoder(number):
+    s = ""
+    for i in number:
+        s += str(int(i) - 3)
+    return s
 def main():
     print('Menu')
     print('-------------')
